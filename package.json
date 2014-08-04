@@ -1,0 +1,27 @@
+{
+  "name": "ziggy-unflipper",
+  "version": "0.0.0",
+  "description": "a table unflipper plugin for ziggy",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olivierrr/ziggy-unflipper"
+  },
+  "keywords": [
+    "ziggy",
+    "irc",
+    "plugins",
+    "table",
+    "flip",
+    "flipper"
+    "ziggy-unflipper"
+  ],
+  "author": "olivierrr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivierrr/ziggy-unflipper/issues"
+  },
+  "dependencies": {
+    "ziggy": "^2.0.0"
+  }
+}
