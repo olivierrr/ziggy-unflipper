@@ -1,6 +1,6 @@
 {
   "name": "ziggy-unflipper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a table unflipper plugin for ziggy",
   "main": "index.js",
   "repository": {
@@ -22,6 +22,5 @@
     "url": "https://github.com/olivierrr/ziggy-unflipper/issues"
   },
   "dependencies": {
-    "ziggy": "^2.0.0"
   }
 }
