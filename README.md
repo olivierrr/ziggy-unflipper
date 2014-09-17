@@ -1,4 +1,9 @@
-ziggy-unflipper
+ziggy-flipper
 ===============
 
-a hero you don't deserve
+table unflipper plugin for ziggy
+
+```
+ LOLTABLEFLIP: (╯°□°）╯︵ ┻━┻
+ ziggy-flipper: ┬─┬ノ( º _ ºノ)
+```
