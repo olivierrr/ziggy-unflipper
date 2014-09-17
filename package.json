@@ -1,5 +1,5 @@
 {
-  "name": "ziggy-unflipper",
+  "name": "ziggy-flipper",
   "version": "0.1.0",
   "description": "a table unflipper plugin for ziggy",
   "main": "index.js",
@@ -9,18 +9,13 @@
   },
   "keywords": [
     "ziggy",
-    "irc",
-    "plugins",
     "table",
     "flip",
     "flipper"
-    "ziggy-unflipper"
   ],
   "author": "olivierrr",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/olivierrr/ziggy-unflipper/issues"
-  },
-  "dependencies": {
   }
 }

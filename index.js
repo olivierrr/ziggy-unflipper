@@ -1,21 +1,7 @@
-module.exports = cool
-var rx = /(┻)/g
-
-function cool(ziggy) {
-  ziggy.on('message', parseMessage)
-
-  function parseMessage(user, channel, message) {
-
-    if(message.match(rx)) {
-      var rxMatches = Math.floor(message.match(rx).length/2)
-      , reply = ''
-
-      if(rxMatches > 0) {
-        for(var i=0; i<rxMatches; i++) {
-          reply += '┬─┬ノ( º _ ºノ) '
-        }
-        ziggy.say(channel, reply)
-      }
-    }
-  }
+module.exports = function(ziggy) {
+  ziggy.on('message', function (user, channel, message) {
+    var tablesFlipped = message.split('').filter(function(c){return c === '┻'})
+    tablesFlipped = tablesFlipped.slice(Math.floor(tablesFlipped.length/2))
+    ziggy.say(channel, tablesFlipped.map(function(){ return '┬─┬ノ( º _ ºノ)'}).join(' '))
+  })
 }
